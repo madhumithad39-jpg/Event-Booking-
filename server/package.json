@@ -1,0 +1,21 @@
+{
+  "name": "evently-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for EVENTLY – Event Booking Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "init:db": "node src/db/init.js"
+  },
+  "dependencies": {
+    "better-auth": "^1.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.13.3"
+  }
+}
